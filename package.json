@@ -1,35 +1,20 @@
 {
-  "name": "leaflet-easybutton",
-  "version": "2.4.0",
-  "description": "easily add control buttons to your leaflet maps with icon support",
-  "main": "src/easy-button.js",
-  "style": "src/easy-button.css",
-  "types": "src/easy-button.d.ts",
+  "name": "ngxleaflet-easybutton",
+  "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "rmdir /s /q dist && tsc && tsc --build tsconfig.es5.json"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CliffCloud/Leaflet.EasyButton.git"
+    "url": "https://github.com/RonaldHare/NgxLeaflet.EasyButton.git"
   },
-  "keywords": [
-    "leaflet",
-    "font-awesome",
-    "glyphicon",
-    "button",
-    "control",
-    "map"
-  ],
-  "author": "rocks.in.the.cloud+easybutton@gmail.com",
+  "author": "ghost.brew.sa@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CliffCloud/Leaflet.EasyButton/issues"
-  },
-  "homepage": "https://github.com/CliffCloud/Leaflet.EasyButton",
   "dependencies": {
-    "leaflet": "^1.0.1"
+    "leaflet": "^1.9.4"
   },
   "devDependencies": {
-    "@types/leaflet": "^1.2.0"
+    "@types/leaflet": "^1.9.12",
+    "typescript": "^5.6.2"
   }
 }

@@ -1,0 +1,33 @@
+{
+    "name": "@2h/ngxleaflet-easybutton",
+    "version": "0.0.1",
+    "description": "easily add control buttons to your leaflet maps with icon support",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RonaldHare/NgxLeaflet.EasyButton.git"
+    },
+    "files": [
+      "lib",
+      "CHANGELOG.md",
+      "LICENSE",
+      "package.json",
+      "README.md"
+    ],
+    "keywords": [
+        "leaflet",
+        "font-awesome",
+        "glyphicon",
+        "button",
+        "control",
+        "map"
+    ],
+    "author": "ghost.brew.sa@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/RonaldHare/NgxLeaflet.EasyButton"
+    },
+    "homepage": "https://github.com/RonaldHare/NgxLeaflet.EasyButton"
+  }
